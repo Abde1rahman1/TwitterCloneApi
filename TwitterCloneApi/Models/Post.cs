@@ -9,8 +9,7 @@ namespace TwitterCloneApi.Models
 
         public string PostContent { get; set; }
 
-		[NotMapped]
-		public int LikeCounts { get; set; } = 0;
+		
 
 
 		[ForeignKey("ApplicationUser")]

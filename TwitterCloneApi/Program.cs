@@ -8,7 +8,7 @@ using TwitterCloneApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+
 
 // connect to DB 
 var connetionString = builder.Configuration.GetConnectionString("DefualtConnection");
