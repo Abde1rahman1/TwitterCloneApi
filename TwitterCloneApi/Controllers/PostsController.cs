@@ -29,7 +29,7 @@ namespace TwitterCloneApi.Controllers
 					Likes = p.Likes,
 					Comments = p.Comments,
 					PostContent = p.PostContent,
-					LikeCounts = p.LikeCounts,
+				
 					Username = p.ApplicationUser.UserName
 
 				}).ToListAsync();
@@ -52,7 +52,7 @@ namespace TwitterCloneApi.Controllers
 					Likes = p.Likes,
 					Comments = p.Comments,
 					PostContent = p.PostContent,
-					LikeCounts = p.LikeCounts,
+				
 					Username = p.ApplicationUser.UserName
 
 				})

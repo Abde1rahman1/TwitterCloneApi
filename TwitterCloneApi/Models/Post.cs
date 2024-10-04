@@ -9,9 +9,6 @@ namespace TwitterCloneApi.Models
 
         public string PostContent { get; set; }
 
-		
-
-
 		[ForeignKey("ApplicationUser")]
 		public string ApplicationUserId { get; set; }
 		[JsonIgnore]
